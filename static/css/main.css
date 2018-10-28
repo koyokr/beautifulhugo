@@ -376,6 +376,7 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
+  font-family: 'Lora', 'Times New Roman', serif;
   color: #808080;
   font-size: 18px;
   font-style: italic;
