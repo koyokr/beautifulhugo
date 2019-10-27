@@ -87,6 +87,7 @@ div.panel-body a.list-group-item {
   font-weight: 900;
   border-radius: 0;
   border: none;
+  font-size: 16px;
 }
 div.panel-group .panel {
     border-radius: 0;
@@ -375,15 +376,20 @@ footer .theme-by {
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
-.post-heading .post-meta {
+.post-heading .post-meta,
+.page-meta {
   font-family: 'Lora', 'Times New Roman', serif;
   color: #808080;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
 }
+.page-meta {
+  align-self: center;
+}
 .post-preview .post-meta a,
-.post-heading .post-meta a {
+.post-heading .post-meta a,
+.page-meta a {
   color: #404040;
   text-decoration: none;
 }
